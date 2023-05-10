@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    color: white;
+}
+header{
+    height: 15vh;
+    padding: 5px 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav .logo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 0 5px 5px ;
+}
+nav ul{
+    display: flex;
+    gap:50px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+}

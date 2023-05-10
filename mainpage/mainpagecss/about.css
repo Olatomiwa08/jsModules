@@ -1,0 +1,37 @@
+.about{
+    /* background: url(/travel-landscape-19.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    /* margin-top: 140px; */
+}
+.about img{
+    height: 600px;
+    width: 600px;
+}
+.abouttext{
+    margin-right: 200px;
+}
+.abouttext h1{
+    font-size: 90px;
+    color: rgb(114, 114, 114);
+    font-weight: 900;
+}
+.abouttext h1::after{
+    content: "";
+    margin: 30px 0;
+    width: 150px;
+    height: 5px;
+    background: rgb(255, 0, 43);
+    display: block;
+}
+.abouttext h3{
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.abouttext p{
+    font-size: 20px;
+    font-weight: 500;
+}
