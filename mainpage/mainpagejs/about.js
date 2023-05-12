@@ -15,4 +15,5 @@ abouttext.innerHTML = `
 
 `
 about.append(abouttext)
-main.append(about)
+// main.append(about)
+export default about;

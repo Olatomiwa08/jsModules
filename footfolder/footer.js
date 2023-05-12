@@ -9,5 +9,5 @@ foot.innerHTML = `
 
     &copy Copyright
 
-`
-container.append(foot)
+`;
+export default foot; 
